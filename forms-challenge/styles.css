@@ -1,0 +1,94 @@
+body {
+    font-family: sans-serif;
+    background-color: #ECFAFD;
+}
+
+h1 {
+    text-align: center;
+    margin: 2rem;
+}
+
+form {
+    width: 40rem;
+    margin: auto;
+    background-color: #F5F8FE;
+    border-radius: 6px;
+    box-shadow: 0 2px 8px rgb(0, 0, 0, 0.2);
+    padding: 1rem;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+input, textarea, select {
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+    margin-bottom: 1rem;
+    font: inherit;
+    border: 1px solid rgb(184, 184, 184);
+    padding: 0.25rem;
+    color: rgb(61, 58, 58);
+    border-radius: 4px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+input:focus, textarea:focus {
+    background-color: #ECFAFD;
+    border-color: #ECFAFD;
+}
+
+.form-control-inline {
+    display: flex;
+}
+
+.form-control-inline input {
+    width: auto;
+    margin-right: 0.5rem;
+}
+
+.terms {
+    margin-top: 0.6rem;
+}
+
+.buttons {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 0.7rem;
+    column-gap: 0.2rem;
+}
+
+button {
+    padding: 0.3rem 1rem;
+    border: 1px solid rgb(184, 184, 184);
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#btn-clear {
+    background-color: #F5F8FE;
+}
+
+#btn-clear:hover {
+    background-color: #d6d9e2;
+}
+
+#btn-submit {
+    background-color: #303A58;
+    color: white;
+}
+
+#btn-submit:hover {
+    background-color: #535c80;
+}

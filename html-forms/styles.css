@@ -1,0 +1,74 @@
+body {
+    background-color: rgb(31, 30, 30);
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+form {
+    width: 30rem;
+    margin: 3rem auto;
+    background-color: rgb(255, 255, 255);
+    padding: 1rem;
+    border-radius: 6px;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+label {
+    margin-bottom: 0.5rem;
+    display: block;
+}
+
+input, textarea, select {
+    width: 100%;
+    display: block;
+    margin-bottom: 1rem;
+    box-sizing: border-box;
+    font: inherit;
+    border: 1px solid rgb(184, 184, 184);
+    padding: 0.25rem;
+    color: rgb(61, 58, 58);
+}
+
+textarea {
+    resize: vertical;
+}
+
+input:focus, textarea:focus {
+    background-color: rgb(219, 190, 253);
+    color: rgb(72, 11, 155);
+    border-color: rgb(72, 11, 155);
+}
+
+button {
+    display: block;
+    font: inherit;
+    background-color: rgb(72, 11, 155);
+    color: white;
+    border: 1px solid rgb(72, 11, 155);
+    padding: 0.5rem 1.5rem;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(89, 40, 162);
+    border-color: rgb(89, 40, 162);
+}
+
+.form-control-inline {
+    display: flex;
+}
+
+.form-control-inline input {
+    width: auto;
+    margin-right: 0.5rem;
+}
